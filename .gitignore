@@ -95,4 +95,5 @@ Backup of *.doc*
 
 *.xls*
 
-target/*
+*/target/
+
