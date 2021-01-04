@@ -1,0 +1,10 @@
+[package]
+name = "app-1"
+version = "0.1.0"
+authors = ["许向 <x2x4com@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"

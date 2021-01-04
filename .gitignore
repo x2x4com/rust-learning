@@ -94,3 +94,5 @@ Backup of *.doc*
 *.~vsd*
 
 *.xls*
+
+target/*
