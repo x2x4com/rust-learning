@@ -1,8 +1,12 @@
 use std::env;
 use std::process;
-use minigrep::Config;
+use minigrep::{Config, test1};
 
 fn main() {
+    let v = vec!["aa".to_string(), "bb".to_string(), "cc".to_string()];
+    let a = test1(&v);
+    println!("dd: {}", a);
+
     let args: Vec<String> = env::args().collect();
     // println!("{:?}", args);
     // let (query, filename) = parse_config(&args);
